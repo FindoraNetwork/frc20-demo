@@ -47,6 +47,14 @@
 
 
 ### Deploy on findora network
+1. uncomment those following line in the begining of `truffle-config.js` to enable the key 
+    ```
+    // const HDWalletProvider = require('@truffle/hdwallet-provider');
+
+    // const fs = require('fs');
+    // const mnemonic = fs.readFileSync(".secret").toString().trim();
+    ```
+
 1. add findora_forge network
     ```
     findora_forge: {
